@@ -12,7 +12,7 @@ public class ActionClassConcept {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver",
-				"G:\\Work\\Selenium\\Selenium Udemy Learning\\Download\\chromedriver_win32\\chromedriver.exe");
+				"C:\\Users\\abhij\\Downloads\\Softwares\\Chrome WebDriver\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://www.amazon.com");
